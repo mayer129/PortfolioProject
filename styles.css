@@ -71,7 +71,7 @@ body, html {
     cursor: pointer;
 }
 /* decreases the size and padding of footer and contact card */
-.cardContact, .cardFooter {
+.cardFooter {
     min-height: 20px;
     padding-bottom: 20px;
 }
