@@ -12,6 +12,12 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+h1 {
+    font-size: 32px;
+}
+p, li {
+    font-size: 24px;
+}
 
 body, html {
     width: 100%;
@@ -67,9 +73,17 @@ body, html {
 }
 /* sets the size of the small card and change cursor to pointer */
 .cardSmall {
-    width: 400px;
+    width: 500px;
+    min-height: 290px;
     cursor: pointer;
+    padding-bottom: 5px;
+
 }
+
+.cardSmall p {
+    font-size: 22px;
+}
+
 /* decreases the size and padding of footer and contact card */
 .cardFooter {
     min-height: 20px;
@@ -82,6 +96,7 @@ body, html {
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     background: #343a40;
 }
+
 /* gives more padding for the text. uses % so it isn't crazy on smaller screens */
 .card p, .cardGrey p {
     padding-left: 10%;
